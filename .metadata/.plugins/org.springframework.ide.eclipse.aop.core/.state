@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="TodoApp"/>
+<aop-project name="Sdp3"/>
+<aop-project name="SpringBootMVCDemo1"/>
+<aop-project name="SpringBootwithRESTAPIDemo"/>
+<aop-project name="SpringBootwithJPARESTAPIDemo"/>
+<aop-project name="Application"/>
+<aop-project name="MyApplication"/>
+<aop-project name="SpringBootDILocApplication"/>
+<aop-project name="SpringBootMVCDemo2-1"/>
+<aop-project name="CodeJavaApp"/>
+<aop-project name="SpringBootHelloWorldApplication"/>
+<aop-project name="SpringBootExam"/>
+<aop-project name="SpringBootMVCDemo2"/>
+<aop-project name="SpringBootwithFormHandling"/>
+<aop-project name="SpringBootRestControllerApplication"/>
+</aop-reference-model>

@@ -1,0 +1,32 @@
+package com.klef.demo.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+
+import org.springframework.ui.Model;
+import com.klef.demo.service.TodoService;
+
+@Controller
+public class TodoController {
+	
+	private TodoService todoService;
+
+	public TodoController(TodoService todoService) {
+		super();
+		this.todoService = todoService;
+	}
+	
+	//handler method to handle list students and return mode and view
+	
+	@GetMapping("/todos")
+	public String listTodos(Model model) {
+		
+		model.addAttribute("todos",todoService.getAllTodos());
+		
+		return "todos";
+	}
+	
+	
+	
+
+}
